@@ -1,0 +1,10 @@
+{
+  "goToPage": "Go to the page you were reading.",
+  "chapters": "Go to chapter:",
+  "menu": {
+    "close": "Close",
+    "openInGTranslate": "Open in Google Translate",
+    "copy": "Copy: {{ lang }}",
+    "report": "Report a problem with this line"
+  }
+}

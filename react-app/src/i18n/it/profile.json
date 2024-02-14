@@ -1,0 +1,26 @@
+{
+  "onboarding": {
+    "title": "Configurazione Account",
+    "learnLang": {
+      "line01": "Benvenuto in Babelify, la piattaforma the rende facile e divertente <b>espandere il tuo vocabolario</b>.",
+      "line02": "Babelify ti offre <b>storie coinvolgenti</b>nella lingua che stai studiando:",
+      "label": "Voglio imparare..."
+    },
+    "knownLang": {
+      "line01": "Fantastico! Abbiamo <b>un sacco di libri</p> ed approfondimenti per te 😀!",
+      "line02": "D'altra parte si sa: <i>\"leggere libri ed ascoltare conversazioni é il miglior modo per imparare una nuova lingua\"</i>!",
+      "line03": "Durante la lettura puoi cliccare su frasi e parole per visualizzarne una <b>traduzione istantanea</b> nella tua lingua madre:",
+      "label": "Parlo fulentemente..."
+    },
+    "info01": "Ottimo 😎! Questa combo definisce il tuo <b>Ambiente di Lavoro</b> dove Babelify salva i tuoi progressi, preferenze, ed altre informazioni rilevanti alla tua esperienza con la piattaforma.",
+    "info02": "Potrai creare <b>piú Ambienti di Lavoro</b> nel caso tu voglia studiare piú lingue contemporaneamente!",
+    "confirm": "Creata Ambiente di Lavoro!",
+    "cancel": "Esci da Babelify.app",
+    "instructions": {
+      "line01": "❤️ Grazie per aver completato la configurazione del tuo profilo",
+      "line02": "D'ora in avanti, accederai direttamente alla nostra <b>Libreria</b>.",
+      "line03": "Li potrai scegliere tra numerosi titoli organizzati in categorie, livelli di difficoltá, e raccolte.",
+      "line04": "Buono Studio!"
+    }
+  }
+}

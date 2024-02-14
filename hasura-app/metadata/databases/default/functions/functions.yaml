@@ -1,0 +1,4 @@
+- "!include public_get_dashboard.yaml"
+- "!include public_get_random_questions.yaml"
+- "!include public_import_test.yaml"
+- "!include public_submit_results.yaml"

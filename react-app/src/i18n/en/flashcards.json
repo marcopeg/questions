@@ -1,0 +1,53 @@
+{
+  "title": "FlashCards",
+  "config": {
+    "title": "Practice",
+    "field": {
+      "limit": {
+        "text": "Cards per training"
+      },
+      "quiz": {
+        "text": "Training mode",
+        "option": {
+          "text": "text",
+          "sound": "sound",
+          "both": "both"
+        }
+      },
+      "source": {
+        "text": "How do you want to play",
+        "option": {
+          "spaced": "learn",
+          "review": "review"
+        }
+      }
+    },
+    "play": "play"
+  },
+  "card": {
+    "question": "Do you know what this means?",
+    "reveal": "Show answer",
+    "know": "I know",
+    "right": "I know",
+    "wrong": "I don't know",
+    "complete": "Mark as complete"
+  },
+  "empty": {
+    "title": "You did it all!",
+    "text": "<p>There are no cards to train with at the moment.</p><p>We use <i>spaced repetition</i> to improve your ability to memorize new lemmas; And at the moment you trained on all available cards.</p>",
+    "read": {
+      "before": "You can also",
+      "action": "read some books",
+      "after": "and find new word to add to you Vocabulary."
+    },
+    "settings": "Try a different game",
+    "reset": "Play anyway"
+  },
+  "end": {
+    "repeat": "Do another round",
+    "close": "Close for now"
+  },
+  "alert": {
+    "message": "Are you sure you want to mark this card as complete?"
+  }
+}

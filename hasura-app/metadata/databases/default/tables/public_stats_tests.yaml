@@ -1,0 +1,25 @@
+table:
+  name: stats_tests
+  schema: public
+select_permissions:
+  - role: user
+    permission:
+      columns:
+        - unique_answers
+        - test_id
+        - tot_questions
+        - tot_questions_answered
+        - tot_results
+        - avg_score
+        - max_score
+        - min_score
+        - completion
+        - user_id
+        - created_at
+        - updated_at
+      filter:
+        user_id:
+          _eq: X-Hasura-User-Id
+      query_root_fields: []
+      subscription_root_fields: []
+    comment: ""

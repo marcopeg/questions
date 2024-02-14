@@ -1,0 +1,5 @@
+function:
+  name: get_dashboard
+  schema: public
+permissions:
+  - role: backoffice

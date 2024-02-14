@@ -1,0 +1,14 @@
+table:
+  name: ops
+  schema: public
+select_permissions:
+  - role: backoffice
+    permission:
+      columns:
+        - data
+        - name
+      filter: {}
+      query_root_fields:
+        - select
+      subscription_root_fields: []
+    comment: ""

@@ -1,0 +1,14 @@
+{
+  "title": "Settings",
+  "subtitle": "Imposta il tuo account",
+  "sign": {
+    "label": "Accedi a un altro dispositivo"
+  },
+  "save": {
+    "label": "Salva",
+    "confirm": "Account correttamente aggiornato"
+  },
+  "copy": "Codice di accesso",
+  "confirmMsg": "Lemma copiato negli appunti",
+  "qrCode": "Copia il collegamento magico"
+}

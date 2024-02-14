@@ -1,0 +1,5 @@
+function:
+  name: get_random_questions
+  schema: public
+permissions:
+  - role: user

@@ -1,0 +1,23 @@
+{
+  "title": "Vocabulary",
+  "subtitle": "Train yourself with FlashCards",
+  "tab": {
+    "learning": "Learning ({{ count }})",
+    "learned": "Learned ({{ count }})"
+  },
+  "action": {
+    "train": "Practice",
+    "learn": "Start learning"
+  },
+  "info": {
+    "title": "Build Your Vocabulary",
+    "learning": {
+      "line01": "You don't have any words on the learning list.",
+      "line02": "Read a book and click on a word so you can add it to the learning list."
+    },
+    "learned": {
+      "line01": "Here you see the list of familiar words.",
+      "line02": "Fill this list and become a master of your language. Just hit the \"Practice\" button and have fun with flashcards!"
+    }
+  }
+}

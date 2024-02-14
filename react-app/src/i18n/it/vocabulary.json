@@ -1,0 +1,22 @@
+{
+  "title": "Vocabolario",
+  "subtitle": "Allena la tua memoria!",
+  "tab": {
+    "learning": "Sto Imparando ({{ count }})",
+    "learned": "Conosco ({{ count }})"
+  },
+  "action": {
+    "train": "Allenati!"
+  },
+  "info": {
+    "title": "Costruisci il tuo Vocabolario",
+    "learning": {
+      "line01": "Non hai ancora aggiunto nessuna parola.",
+      "line02": "Leggi un libro e fai clic su una parola per aggiungerla all'elenco di apprendimentoi."
+    },
+    "learned": {
+      "line01": "Qui trovi l'elenco delle parole che conosci.",
+      "line02": "Allenati sulle nuove parole che incontri leggendo nuovi libri e sposta ogni giorno almeno 5 parole in questa sezione."
+    }
+  }
+}

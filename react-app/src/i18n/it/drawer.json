@@ -1,0 +1,8 @@
+{
+  "title": "Drawer",
+  "sign": {
+    "label": "Accedi a un altro dispositivo"
+  },
+  "copy": "Copia il codice di accesso",
+  "confirmMsg": "Link di registrazione copiato negli appunti."
+}

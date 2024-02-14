@@ -1,0 +1,27 @@
+table:
+  name: results
+  schema: public
+object_relationships:
+  - name: test
+    using:
+      foreign_key_constraint_on: test_id
+select_permissions:
+  - role: user
+    permission:
+      columns:
+        - created_at
+        - data
+        - id
+        - results
+        - score
+        - test_id
+        - user_id
+      filter:
+        user_id:
+          _eq: X-Hasura-User-Id
+      limit: 100
+      query_root_fields:
+        - select
+        - select_by_pk
+      subscription_root_fields: []
+    comment: ""

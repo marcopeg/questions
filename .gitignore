@@ -1,0 +1,15 @@
+Makefile.env
+dump-*.txt
+**/__pycache__/**/*
+.DS_Store
+dist
+**/.env
+**/.env.*
+!**/.env.example
+
+yarn.lock
+bun.lockb
+**/node_modules
+**/package-lock.json
+**/yarn.lock
+**/bun.lockb

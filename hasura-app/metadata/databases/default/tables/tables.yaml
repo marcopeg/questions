@@ -1,0 +1,7 @@
+- "!include public_answers.yaml"
+- "!include public_categories.yaml"
+- "!include public_ops.yaml"
+- "!include public_questions.yaml"
+- "!include public_results.yaml"
+- "!include public_stats_tests.yaml"
+- "!include public_tests.yaml"

@@ -1,0 +1,10 @@
+{
+  "goToPage": "Vai all'ultima pagina letta.",
+  "chapters": "Vai al capitolo:",
+  "menu": {
+    "close": "Torna alla Libreria",
+    "openInGTranslate": "Apri in Google Translate",
+    "copy": "Copia: {{ lang }}",
+    "report": "Segnala un problema"
+  }
+}

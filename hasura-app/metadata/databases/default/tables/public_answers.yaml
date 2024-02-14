@@ -1,0 +1,14 @@
+table:
+  name: answers
+  schema: public
+select_permissions:
+  - role: user
+    permission:
+      columns:
+        - id
+        - text
+      filter: {}
+      limit: 100
+      query_root_fields: []
+      subscription_root_fields: []
+    comment: ""

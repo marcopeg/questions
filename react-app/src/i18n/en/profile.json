@@ -1,0 +1,26 @@
+{
+  "onboarding": {
+    "title": "Account Setup",
+    "learnLang": {
+      "line01": "Welcome to Babelify, the <b>language platform</b> that makes it fun learning a new language and <b>expand your vocabulary</b>.",
+      "line02": "Babelify offers <b>engaging content</b> in the language that you want to learn:",
+      "label": "I want to learn..."
+    },
+    "knownLang": {
+      "line01": "No kidding! We have <b>a lot of books</b> and papers for you 😀!",
+      "line02": "As they say: <i>\"reading and listening is the best way to learn a new language!\"</i>",
+      "line03": "Whenever you feel something is not clear, you can <b>tap on the line</b> that you are reading and show the translation in your <b>native language</b>:",
+      "label": "I am fluent in..."
+    },
+    "info01": "Great 😎! This combo creates <b>a Workspace</b> where Babelify saves your progress, notes, and other relevant informations.",
+    "info02": "You can create <b>multiple Workspaces</b> if you are practicing in multiple languages!",
+    "confirm": "Create Workspace!",
+    "cancel": "logout",
+    "instructions": {
+      "line01": "❤️ Thank you for completing your profile!",
+      "line02": "From now on, you will enter directly on the <b>Library</b> page.",
+      "line03": "There, you can choose which content to read.",
+      "line04": "Happy learning!"
+    }
+  }
+}

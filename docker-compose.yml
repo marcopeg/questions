@@ -1,0 +1,62 @@
+version: "3.6"
+services:
+  postgres:
+    container_name: hasura-pg
+    image: postgres:15
+    volumes:
+      - postgres:/var/lib/postgresql/data
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    environment:
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 2s
+      timeout: 1s
+      retries: 20
+
+  hasura-engine:
+    image: hasura/graphql-engine:v2.37.0.cli-migrations-v3
+    ports:
+      - 8080:8080
+    environment:
+      # Setup main db connection:
+      HASURA_GRAPHQL_DATABASE_URL: postgres://postgres:${POSTGRES_PASSWORD:-postgres}@postgres:5432/postgres
+      # Setup basic authentication settings:
+      HASURA_GRAPHQL_ADMIN_SECRET: ${HASURA_ADMIN_SECRET:-hasura}
+      HASURA_GRAPHQL_JWT_SECRET: '{"type":"HS256", "key": "1234567890123456789012345678901234567890"}'
+      HASURA_GRAPHQL_UNAUTHORIZED_ROLE: anonymous
+      # Other settings
+      HASURA_GRAPHQL_DEV_MODE: "true"
+      HASURA_GRAPHQL_ENABLE_CONSOLE: "true"
+      HASURA_GRAPHQL_ENABLED_LOG_TYPES: startup, http-log, query-log
+      HASURA_GRAPHQL_ENABLE_REMOTE_SCHEMA_PERMISSIONS: "true"
+      HASURA_GRAPHQL_ENABLE_TELEMETRY: "false"
+      HASURA_GRAPHQL_INFER_FUNCTION_PERMISSIONS: "false"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test: timeout 1s bash -c ':> /dev/tcp/127.0.0.1/8080' || exit 1
+      interval: 2s
+      timeout: 1s
+      retries: 20
+
+  # Web-based Database Client
+  adminer:
+    image: adminer:4.8.1
+    ports:
+      - "${ADMINER_PORT:-8081}:8080"
+    links:
+      - postgres:db
+    restart: unless-stopped
+
+volumes:
+  postgres:
+
+networks:
+  hasura:
+    name: hasura_2023
+    driver: bridge

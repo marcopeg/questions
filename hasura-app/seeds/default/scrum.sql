@@ -1,0 +1,551 @@
+SELECT import_test(1, '{
+  "default_category": "direct",
+  "questions": [
+    {
+      "text": "Which one of the following statements is correct regarding acceptance of any deliverables on a Scrum project?",
+      "answers": [
+        {
+          "text": "Acceptance of any particular deliverable on the project is gained from all stakeholders at the same time.",
+          "is_correct": false
+        },
+        {
+          "text": "The team should get acceptance of project deliverables from the users during a UAT phase at the end of the project.",
+          "is_correct": false
+        },
+        {
+          "text": "The team should allow only senior managers to sign off deliverables.",
+          "is_correct": false
+        },
+        {
+          "text": "The team should get acceptance of project deliverables from appropriate stakeholders at least at the end of every Sprint.",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "text": "How should work be allocated to the team in an Agile project?",
+      "answers": [
+        {
+          "text": "The Team Leader (Scrum Master) should allocate specific tasks to individuals.",
+          "is_correct": false
+        },
+        {
+          "text": "Tasks should be randomly allocated to team members using Planning Poker.",
+          "is_correct": false
+        },
+        {
+          "text": "Teams members should self-select tasks appropriate to their skills.",
+          "is_correct": true
+        },
+        {
+          "text": "The most complex tasks should be allocated by the Team Leader (Scrum Master).",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "text": "Which one of the following is a key feature that you would expect to find in an Agile project?",
+      "answers": [
+        {
+          "text": "System documentation created at the end of each increment at the start of the deployment.",
+          "is_correct": false
+        },
+        {
+          "text": "User Stories held in a spreadsheet or specialist database where full details of user conversations are recorded for future purposes like handover to maintenance or support.",
+          "is_correct": false
+        },
+        {
+          "text": "User Story cards containing only enough details for planning and development which will need to be supplemented by further face-to-face conversations.",
+          "is_correct": true
+        },
+        {
+          "text": "No written documentation as all good communication is face-to-face.",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "text": "Which artifacts of the following are associated with Scrum?",
+      "answers": [
+        {
+          "text": "Product backlog",
+          "is_correct": true
+        },
+        {
+          "text": "Product specification",
+          "is_correct": false
+        },
+        {
+          "text": "Effort chart",
+          "is_correct": false
+        },
+        {
+          "text": "Team backlog",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "text": "The end result of a Spring is:",
+      "answers": [
+        {
+          "text": "A product almost as good quality as a Waterfall development",
+          "is_correct": false
+        },
+        {
+          "text": "A product of a professional quality which fits the business need",
+          "is_correct": true
+        },
+        {
+          "text": "A product which is barely sufficient for its purpose and deliberately not maintainable",
+          "is_correct": false
+        },
+        {
+          "text": "A technically-perfect re-factored solution",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "text": "Scrum Master...",
+      "answers": [
+        {
+          "text": "Should allocate tasks to the members each day at the stand-up meeting.",
+          "is_correct": false
+        },
+        {
+          "text": "Should involve the team in their own work-allocation.",
+          "is_correct": true
+        },
+        {
+          "text": "Should give detailed work-plans to the team each day.",
+          "is_correct": false
+        },
+        {
+          "text": "Should direct the work of the team if they are inexperienced.",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "text": "A major theme in Scrum is ''inspect and adapt.'' What does it mean?",
+      "answers": [
+        {
+          "text": "Scrum insists on auditors who frequently inspect the work of the team and suggest ways to adapt the process to improve quality.",
+          "is_correct": false
+        },
+        {
+          "text": "Scrum recommends that upper management inspect the Burndown charts and notes from daily scrums to find ways in which the team should adapt their practices to be more productive.",
+          "is_correct": false
+        },
+        {
+          "text": "Scrum emphasizes taking a short step of development, inspecting both the resulting product and the efficacy of current practices, and then adapting the product goals and process practices.",
+          "is_correct": true
+        },
+        {
+          "text": "Inspect and adapt refers to the Scrum Master''s role in inspecting the work and writing stories designed to help the team produce higher quality software.",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "text": "Which one of the following statements is correct regarding quality of deliverables from a Scrum Project?",
+      "answers": [
+        {
+          "text": "The products produced by a scrum project should be cheaper than those produced by any other approach but quality will suffer.",
+          "is_correct": false
+        },
+        {
+          "text": "The products will be more expensive than any other approach but will be top quality.",
+          "is_correct": false
+        },
+        {
+          "text": "The products will be fit for purpose but may not do what the customer wanted.",
+          "is_correct": false
+        },
+        {
+          "text": "The products will be of appropriate quality as the guideline of the product owner is involved throughout the development process.",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "text": "Which of the following best describes the approach of determining the Sprint length?",
+      "answers": [
+        {
+          "text": "The team should agree on the length of the Sprint taking the size and complexity of the project into consideration.",
+          "is_correct": true
+        },
+        {
+          "text": "Sprint should always be two weeks.",
+          "is_correct": false
+        },
+        {
+          "text": "The team determines Sprint length by dividing the total of story points by the average velocity of the team.",
+          "is_correct": false
+        },
+        {
+          "text": "Sprint should always be 30 days.",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "text": "Which of the following is a characteristic of a Scrum Master?",
+      "answers": [
+        {
+          "text": "Task focused.",
+          "is_correct": false
+        },
+        {
+          "text": "Process oriented.",
+          "is_correct": false
+        },
+        {
+          "text": "Supportive.",
+          "is_correct": true
+        },
+        {
+          "text": "Disengaged.",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "text": "Which one of the following is NOT traditionally an activity of the Scrum framework?",
+      "answers": [
+        {
+          "text": "Sprint planning.",
+          "is_correct": false
+        },
+        {
+          "text": "Sprint review.",
+          "is_correct": false
+        },
+        {
+          "text": "Sprint retrospective.",
+          "is_correct": false
+        },
+        {
+          "text": "Weekly inspection.",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "text": "Which of the following are roles in the Scrum framework?",
+      "answers": [
+        {
+          "text": "Product Owner.",
+          "is_correct": true
+        },
+        {
+          "text": "Project Manager.",
+          "is_correct": false
+        },
+        {
+          "text": "Lead Developer.",
+          "is_correct": false
+        },
+        {
+          "text": "Business Analyst.",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "text": "When handling team dynamics what should the Scrum master do?",
+      "answers": [
+        {
+          "text": "Empower the team members within appropriate limits.",
+          "is_correct": true
+        },
+        {
+          "text": "Encourage an environment of competition and personal advantage.",
+          "is_correct": false
+        },
+        {
+          "text": "Give clear directives to the team about what should do and how.",
+          "is_correct": false
+        },
+        {
+          "text": "Expect team members to be proactive and each work to their own priorities and objectives.",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "text": "What should the developers do if the product owner is repeatedly too busy to be available?",
+      "answers": [
+        {
+          "text": "Continue the work, record the assumptions, and ask the customer later for input.",
+          "is_correct": false
+        },
+        {
+          "text": "Send the customer a written warning that the end product will be completed on time but may not meet needs.",
+          "is_correct": false
+        },
+        {
+          "text": "Allow the Business Analyst to take on the role of Proxy Customer Representative.",
+          "is_correct": false
+        },
+        {
+          "text": "Draw the problem to the attention of the Scrum Master.",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "text": "Which of the following responsibilities is NOT one of the Scrum Master''s?",
+      "answers": [
+        {
+          "text": "Removing Impediments.",
+          "is_correct": false
+        },
+        {
+          "text": "Facilitating meetings.",
+          "is_correct": false
+        },
+        {
+          "text": "Reminding the team of the process.",
+          "is_correct": false
+        },
+        {
+          "text": "Assigning tasks to the team members.",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "text": "Which statement of the following is a best description for a sprint?",
+      "answers": [
+        {
+          "text": "A sprint is a condensed amount of time where a development team works as many hours as they need to in order to finish the work assigned to them.",
+          "is_correct": false
+        },
+        {
+          "text": "A sprint is a pre-specified amount of time in which the development team at a sustain pace to complete a chosen set of work.",
+          "is_correct": true
+        },
+        {
+          "text": "A sprint is a fixed amount of time set aside for the team to run tests and fix any outstanding bugs right before the product ships.",
+          "is_correct": false
+        },
+        {
+          "text": "A sprint is a pre-specified period of time during which team members choose individual items from the product backlog to work on. As each item is completed, a new item is brought into the sprint.",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "text": "Who ultimately decides when the team has enough work for the sprint in planning?",
+      "answers": [
+        {
+          "text": "The Scrum Master",
+          "is_correct": false
+        },
+        {
+          "text": "The Product Owner",
+          "is_correct": false
+        },
+        {
+          "text": "The Team",
+          "is_correct": true
+        },
+        {
+          "text": "The Product Owner, Scrum Master, and team vote to determine when the sprint backlog is full",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "text": "What are the two main goals of a sprint planning meeting?",
+      "answers": [
+        {
+          "text": "A sprint goal and a sprint backlog",
+          "is_correct": true
+        },
+        {
+          "text": "A requirements document and burndown chart",
+          "is_correct": false
+        },
+        {
+          "text": "A requirements document and test plan",
+          "is_correct": false
+        },
+        {
+          "text": "A test plan and a burndown chart",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "text": "What does NOT belong to the agile manifesto''s main pillars?",
+      "answers": [
+        {
+          "text": "Individuals and interactions over processes and tools",
+          "is_correct": false
+        },
+        {
+          "text": "Working software over comprehensive documentation",
+          "is_correct": false
+        },
+        {
+          "text": "Process over people",
+          "is_correct": true
+        },
+        {
+          "text": "Customer collaboration over contract negotiation",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "text": "Why is it important to trust the team?",
+      "answers": [
+        {
+          "text": "High trust teams do not have to be accountable to each other",
+          "is_correct": false
+        },
+        {
+          "text": "High trust teams do not require a user representative",
+          "is_correct": false
+        },
+        {
+          "text": "The Project Manager does not then have to keep a project schedule",
+          "is_correct": false
+        },
+        {
+          "text": "The presence of trust is positively correlated with team performance",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "text": "Who should define the business value of a Feature within the Scrum Project?",
+      "answers": [
+        {
+          "text": "The individual end-user",
+          "is_correct": false
+        },
+        {
+          "text": "The Product Owner",
+          "is_correct": true
+        },
+        {
+          "text": "The Business Analyst",
+          "is_correct": false
+        },
+        {
+          "text": "The Business Sponsor",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "text": "What are the disadvantages of the classical waterfall model? (Select the best alternative)",
+      "answers": [
+        {
+          "text": "End-product has to be fully anticipated beforehand",
+          "is_correct": false
+        },
+        {
+          "text": "Some requirements defined in the beginning of the project are not really needed by the customer",
+          "is_correct": false
+        },
+        {
+          "text": "Each phase is strictly separated",
+          "is_correct": false
+        },
+        {
+          "text": "All of the above",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "text": "What are the advantages of maintaining Sprint length throughout the project?",
+      "answers": [
+        {
+          "text": "It helps to establish a consistent pattern of delivery",
+          "is_correct": false
+        },
+        {
+          "text": "It helps the team to objectively measure progress",
+          "is_correct": false
+        },
+        {
+          "text": "It provides a consistent means of measuring team velocity",
+          "is_correct": false
+        },
+        {
+          "text": "All of the above",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "text": "Where are the customer requirements stored?",
+      "answers": [
+        {
+          "text": "In the Product Backlog",
+          "is_correct": true
+        },
+        {
+          "text": "In the Sprint Backlog",
+          "is_correct": false
+        },
+        {
+          "text": "In a database",
+          "is_correct": false
+        },
+        {
+          "text": "In Scrum Product Requirements Specification",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "text": "Who is responsible for prioritizing the product backlog?",
+      "answers": [
+        {
+          "text": "Product Owner",
+          "is_correct": true
+        },
+        {
+          "text": "Project Manager",
+          "is_correct": false
+        },
+        {
+          "text": "Lead developer",
+          "is_correct": false
+        },
+        {
+          "text": "Business Analyst",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "text": "An effective workshop facilitator will always...",
+      "answers": [
+        {
+          "text": "Involve the whole project team in all project workshops",
+          "is_correct": false
+        },
+        {
+          "text": "Agree the process and participants of the workshop with the workshop owner before the workshop",
+          "is_correct": true
+        },
+        {
+          "text": "Involve only those team members who will commit to doing further work after the workshop",
+          "is_correct": false
+        },
+        {
+          "text": "Act as a proxy for any invited participant who is unable to attend the workshop on the day",
+          "is_correct": false
+        }
+      ]
+    }
+  ]
+}'::json);

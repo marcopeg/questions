@@ -1,0 +1,19 @@
+{
+  "title": "Settings",
+  "subtitle": "Setup your account",
+  "save": {
+    "label": "Save",
+    "confirm": "Account correctly updated"
+  },
+  "sign": {
+    "label": "Sign in to another device"
+  },
+  "field": {
+    "name": {
+      "label": "Name"
+    }
+  },
+  "copy": "Login code",
+  "confirmMsg": "Lemma copied to clipboard.",
+  "qrCode": "Copy magic link"
+}

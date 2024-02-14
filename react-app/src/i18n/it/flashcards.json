@@ -1,0 +1,53 @@
+{
+  "title": "FlashCards",
+  "config": {
+    "title": "Pratica",
+    "field": {
+      "limit": {
+        "text": "Carte per round"
+      },
+      "quiz": {
+        "text": "Modalità quiz",
+        "option": {
+          "text": "testo",
+          "sound": "audio",
+          "both": "entrambe"
+        }
+      },
+      "source": {
+        "text": "Come vuoi studiare?",
+        "option": {
+          "spaced": "impara",
+          "review": "ripasso"
+        }
+      }
+    },
+    "play": "play"
+  },
+  "card": {
+    "question": "Conosci la traduzione?",
+    "reveal": "Scopri la carta!",
+    "know": "I know this",
+    "right": "avevo indovinato",
+    "wrong": "Non la sapevo",
+    "complete": "Non farmela più vedere"
+  },
+  "empty": {
+    "title": "Hai completato lo studio!",
+    "text": "<p>Al momento non hai carte da studiare.</p><p>Babelify.app usa il metodo della <b>Ripetizione Spaziata</b> per ottimizzare la tua memoria.</p><p>Puoi però avviare una sessione di <b>ripasso</b>!</p>",
+    "read": {
+      "before": "Oppure puoi ",
+      "action": "tornare alla Libreria",
+      "after": "e leggere un nuovo libro per scoprire nuove parole!"
+    },
+    "settings": "Prova un esercizio diverso",
+    "reset": "Gioca comunque"
+  },
+  "end": {
+    "repeat": "Gioca di nuovo!",
+    "close": "Chiudi allenamento"
+  },
+  "alert": {
+    "message": "Sei sicuro di voler contrassegnare questa scheda come completata?"
+  }
+}

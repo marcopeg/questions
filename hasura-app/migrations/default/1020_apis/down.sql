@@ -1,0 +1,2 @@
+DROP FUNCTION IF EXISTS import_test(INT, JSON);
+DROP FUNCTION IF EXISTS get_random_questions(INT, INT, JSONB);

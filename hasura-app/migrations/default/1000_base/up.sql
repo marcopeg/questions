@@ -1,0 +1,6 @@
+CREATE SCHEMA IF NOT EXISTS public;
+
+CREATE TABLE ops (
+  name TEXT PRIMARY KEY,
+  data JSON
+);

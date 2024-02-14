@@ -1,0 +1,1 @@
+drop function if exists submit_results(jsonb, int, jsonb);

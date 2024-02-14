@@ -1,0 +1,23 @@
+table:
+  name: questions
+  schema: public
+array_relationships:
+  - name: answers
+    using:
+      foreign_key_constraint_on:
+        column: question_id
+        table:
+          name: answers
+          schema: public
+select_permissions:
+  - role: user
+    permission:
+      columns:
+        - category_id
+        - id
+        - text
+      filter: {}
+      limit: 100
+      query_root_fields: []
+      subscription_root_fields: []
+    comment: ""

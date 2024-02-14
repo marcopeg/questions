@@ -1,0 +1,25 @@
+{
+  "title": "Report Story Line",
+  "submit": "Submit Report",
+  "section": {
+    "lang": {
+      "title": "Which content is affected?",
+      "helpText": "You can select multiple languahes"
+    },
+    "details": {
+      "title": "Problem Details:",
+      "helpText": "Be as specific as possible."
+    }
+  },
+  "field": {
+    "details": {
+      "label": "Please help us fix this problem!"
+    }
+  },
+  "errors": {
+    "whichLine": "Please set which content has issue."
+  },
+  "result": {
+    "success": "Problem correctly reported"
+  }
+}

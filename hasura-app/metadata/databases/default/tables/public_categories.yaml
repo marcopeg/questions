@@ -1,0 +1,15 @@
+table:
+  name: categories
+  schema: public
+select_permissions:
+  - role: user
+    permission:
+      columns:
+        - default_distribution
+        - id
+        - name
+      filter: {}
+      limit: 100
+      query_root_fields: []
+      subscription_root_fields: []
+    comment: ""

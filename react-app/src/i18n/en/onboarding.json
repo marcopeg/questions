@@ -1,0 +1,17 @@
+{
+  "ui": {
+    "ak": "ok"
+  },
+  "pageList": {
+    "title": "Welcome my Friend!",
+    "content": "<p>Here is a selection of <b>engaging stories</b> in your target language.</p><p>Let us not indulge, and jump straight into your first reading!</p>"
+  },
+  "touchTranslate": {
+    "title": "Did you know?",
+    "content": "<p>Click on any <i>word</i> to open the <b>Instant Translation</b>.</p><p>You can then add it to your <b>Personal Vocabulary</b> and practice it with specific exercises!</p>"
+  },
+  "googleTranslate": {
+    "title": "Did you know?",
+    "content": "<p>You can translate each sentence by clicking on the icon on the right.</p><p>This gives you a better <b>Translation Context</b> that is often unavailable when translating single words.</p>"
+  }
+}

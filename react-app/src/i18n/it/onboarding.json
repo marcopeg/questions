@@ -1,0 +1,17 @@
+{
+  "ui": {
+    "ak": "ok"
+  },
+  "pageList": {
+    "title": "Benvenuto!",
+    "content": "<p>In questa pagina trovi un elenco di <b>Storie Coinvolgenti</b> tradotte nella lingua che stai studiando.</p><p>Babelify.app ti offre diverse tipologie di lettura, e livelli di difficoltá adatti a tutte le circostanze!</p><p>Scorri l'elenco, scegli il titolo che più ti interessa, ed inizia a leggere 📖!</p>"
+  },
+  "touchTranslate": {
+    "title": "Lo sapevi?",
+    "content": "<p>Clicca su una qualsiasi parola per visualizzarne la <b>Traduzione Istantanea</b>.</p><p>Puoi anche aggiungere nuove parole al tuo <b>Vocabolario Personale</b> cosi da poterle studiare con esercizi mirati!</p>"
+  },
+  "googleTranslate": {
+    "title": "Lo sapevi?",
+    "content": "<p>Puoi tradurre un'intera riga cliccando l'icona posta sulla destra.</p><p>Questo di da un veloce accesso ad una <b>Traduzione Contestualizzata</b> che spesso la singola parola non offre.</p>"
+  }
+}

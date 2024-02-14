@@ -1,0 +1,11 @@
+{
+  "login.title": "Entra con la tua e-mail:",
+  "login.text": "Ti invieremo il codice di login entro un minuto",
+  "login.helperText": "mario@rossi.it",
+  "login.submit": "Procedi",
+  "confirm.title": "Login PIN:",
+  "confirm.text": "Ti abbiamo inviato il PIN via email, controlla anche spam!",
+  "confirm.helperText": "0000",
+  "confirm.submit": "Entra",
+  "confirm.cancel": "annulla"
+}
