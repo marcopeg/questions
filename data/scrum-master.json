@@ -3,7 +3,7 @@
   "description": "A comprehensive test to certify knowledge and understanding of the Scrum framework and its application in Agile project management.",
   "icon": "school",
   "default_num_questions": 15,
-  "default_category": "pippo",
+  "default_category": "direct",
   "categories": [
     {
       "name": "direct",

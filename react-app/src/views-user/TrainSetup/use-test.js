@@ -77,8 +77,6 @@ export const useTest = () => {
     navigate(`/train/${id}/${encoded}`);
   };
 
-  console.log(data?.test);
-
   return {
     loading,
     icon: data?.test?.icon,

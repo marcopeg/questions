@@ -1,15 +1,13 @@
-import { useBrowser } from "../../utils";
+import {
+  BasicPageDrawer
+} from "../../layouts/BasicPage";
 
+import { useDrawer } from "./use-drawer";
 import { QuestionsForm } from "./QuestionsForm";
-import { useTrainPopover } from "./use-train-popover";
 import { useTrainQuestions } from "./use-train-questions";
 
-import { DrawerDesktop } from "./components/DrawerDesktop";
-import { DrawerMobile } from "./components/DrawerMobile";
-
 export const TrainQuestions = () => {
-  const { isMobile } = useBrowser();
-  const { open, handleClose } = useTrainPopover();
+  const { open, handleClose } = useDrawer();
   const { title, subtitle, ...form } = useTrainQuestions();
 
   const props = {
@@ -20,5 +18,5 @@ export const TrainQuestions = () => {
     children: <QuestionsForm {...form} />
   };
 
-  return isMobile ? <DrawerMobile {...props} /> : <DrawerDesktop {...props} />;
+  return <BasicPageDrawer {...props} />;
 };
