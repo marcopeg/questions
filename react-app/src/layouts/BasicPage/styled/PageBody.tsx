@@ -10,14 +10,17 @@ interface PageBodyProps {
 
 const PageBody = styled(Box)<PageBodyProps>(
   ({ theme, spacing = 0, scrollable = "true" }) => ({
+    flexGrow: 1,
+    background: 'yellow',
+    color: 'black',
     display: "flex",
     flexDirection: "column",
     overflow: scrollable === "true" ? "auto" : "inherit",
-    marginLeft: theme.spacing(spacing),
-    marginRight: theme.spacing(spacing),
-    minHeight: `calc(100vh - 110px - ${theme.spacing(
-      spacing
-    )} - ${theme.spacing(spacing)})`
+    // marginLeft: theme.spacing(spacing),
+    // marginRight: theme.spacing(spacing),
+    // minHeight: `calc(100vh - 110px - ${theme.spacing(
+    //   spacing
+    // )} - ${theme.spacing(spacing)})`
     // backgroundColor: scrollable === "true" ? "#666" : "inherit"
   })
 );

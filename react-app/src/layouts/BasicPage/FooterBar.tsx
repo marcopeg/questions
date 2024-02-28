@@ -18,7 +18,8 @@ const FooterBar: FC<FooterBarProps> = ({ children }) => {
         top: "auto",
         bottom: 0,
         backgroundColor: theme.palette.background.default,
-        color: theme.palette.getContrastText(theme.palette.background.default)
+        color: theme.palette.getContrastText(theme.palette.background.default),
+        background: "red"
       }}
     >
       <Divider />

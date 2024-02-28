@@ -1,5 +1,5 @@
-import { Inside } from "./scroll/Inside";
-import { Outside } from "./scroll/Outside";
+import { Inside } from "./simple-page/Inside";
+import { Outside } from "./simple-page/Outside";
 
 const value = { Inside, Outside };
 

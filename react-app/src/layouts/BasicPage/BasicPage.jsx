@@ -13,7 +13,7 @@ const BasicPage = (
     id = Math.random(),
     fullpage,
     standalone,
-    height = "100vh",
+    height = "100%",
     title,
     subtitle,
     backTo,
@@ -69,30 +69,48 @@ const BasicPage = (
 
   const page = (
     <PageWrapper {..._wrapperProps} elevation={0}>
-      <TitleBar {..._titleProps} />
-      <PageBody ref={bodyRef} scrollable="true">
+      {/* <TitleBar {..._titleProps} /> */}
+      {/* <PageBody ref={bodyRef} scrollable="true">
         {children}
         {isFullScreen() && <Box sx={{ minHeight: IOS_SPACING_BOTTOM }} />}
-      </PageBody>
-      {footer && <FooterBar>{footer}</FooterBar>}
+      </PageBody> */}
+      {/* <PageBody ref={bodyRef} scrollable="true">
+        {children}
+      </PageBody> */}
+      {/* <Box sx={{
+        flexGrow: 1,
+        // display: "flex",
+        // flexDirection: "column",
+        // height,
+        // width: "100%",
+        background: 'yellow',
+        color: 'black'
+      }}>
+        dwedewdew
+        </Box> */}
+      {/* {footer && <FooterBar>{footer}</FooterBar>} */}
+      fooo
     </PageWrapper>
   );
 
-  return standalone ? (
-    <Box
-      component="main"
-      sx={{
-        display: "flex",
-        flexDirection: "column",
-        height,
-        width: "100%"
-      }}
-    >
-      {page}
-    </Box>
-  ) : (
-    page
-  );
+  return page;
+  // return standalone ? (
+  //   <Box
+  //     component="main"
+  //     sx={{
+  //       display: "flex",
+  //       flexDirection: "column",
+  //       height,
+  //       width: "100%",
+  //       background: 'yellow'
+  //     }}
+  //   >
+  //     {/* {page} */}
+  //     xxx
+  //   </Box>
+  // ) : (
+  //   page
+  // );
 };
 
 export default forwardRef(BasicPage);

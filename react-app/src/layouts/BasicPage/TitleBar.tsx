@@ -53,7 +53,8 @@ const TitleBar: FC<TitleBarProps> = ({
       elevation={0}
       sx={{
         backgroundColor: theme.palette.background.default,
-        color: theme.palette.getContrastText(theme.palette.background.default)
+        color: theme.palette.getContrastText(theme.palette.background.default),
+        background: "green"
       }}
     >
       <Box sx={{ position: "relative" }}>

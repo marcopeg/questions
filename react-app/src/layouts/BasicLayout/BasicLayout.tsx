@@ -116,14 +116,16 @@ export const BasicLayout: FC<BasicLayoutProps> = ({
           sx={{
             display: "flex",
             flexDirection: "column",
-            height: "100vh",
-            width: "100%"
+            height: "500px",
+            width: "100%",
+            background: 'gray',
+            // overflow: "hidden",
           }}
         >
-          {isDesktop && <Toolbar />}
+          {/* {isDesktop && <Toolbar />} */}
           {children}
-          {isFullScreen() && <Box sx={{ minHeight: IOS_SPACING_BOTTOM }} />}
-          {isMobile && <Toolbar />}
+          {/* {isFullScreen() && <Box sx={{ minHeight: IOS_SPACING_BOTTOM }} />} */}
+          {/* {isMobile && <Toolbar />} */}
         </Box>
       </Box>
     </BasicLayoutContext.Provider>
